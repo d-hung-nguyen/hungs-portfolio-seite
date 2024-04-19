@@ -5,6 +5,7 @@
     <title>Animate SVG Icons</title>
     <style>
       svg {
+        position: absolute;
         opacity: 50;
         height: 20px;
         z-index: 20; /* Necessary for positioning svgs absolutely */
@@ -14,7 +15,7 @@
       }
       @keyframes move {
         0% {
-          transform: translate(0, 0);
+          transform: translate(-40px, -40px);
         }
         100% {
           transform: translate(100px, 100px);
@@ -178,7 +179,7 @@
         svgToAnimate.isAnimating = true
       }
 
-      setInterval(animateBackgroundIcons, 500)
+      setInterval(animateBackgroundIcons, 2000)
       animateBackgroundIcons()
     </script>
   </body>
