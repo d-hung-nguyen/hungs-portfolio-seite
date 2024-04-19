@@ -6,25 +6,20 @@ import { Download } from 'lucide-react'
 const PDF = '/CV German.pdf'
 ---
 
-<Card title= "CV">
+<Card title="CV">
   <div class="card-actions mt-2 flex w-full items-center justify-center">
-
-  <div class="mt-4 flex row-span-1 space-x-2 ">
+    <div class="row-span-1 mt-4 flex space-x-2">
       <figure>
         <object data={PDF} type="application/pdf" width="100%"></object>
       </figure>
       <div class="mt-4 flex flex-col gap-2">
-      <p class="text-sm text-muted-foreground">
-        View and download my resume by clicking on the button below
-      </p>
-      <a target="_blank" href={PDF}>
-        <Download >
-          Download Resume
-        </Download>
-   
-      </a>
+        <p class="text-sm text-muted-foreground">
+          View and download my resume by clicking on the button below
+        </p>
+        <a target="_blank" href={PDF}>
+          <Download> Download Resume </Download>
+        </a>
+      </div>
     </div>
-        </div>
-    </div>
-
+  </div>
 </Card>

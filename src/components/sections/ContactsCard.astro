@@ -6,46 +6,43 @@ import { buttonVariants } from '../ui/button'
 
 <Card>
   <div class="h-full">
-    <header class="flex justify-start ">
+    <header class="flex justify-start">
       <h1 class="text-xl font-bold text-foreground">
         Let's start working together!
       </h1>
     </header>
-    <div class="mt-4 flex row-auto ">
+    <div class="row-auto mt-4 flex">
       <h2 class="text-gray-500">
-
         <p>nd.hung@me.com</p>
         <p>Frankfurt am Main, Germany</p>
-      </address>
-      <address class="mt-4 flex flex-col">
       </h2>
-        <span class="flex-row mt-4">
+      <address class="mt-4 flex flex-col"></address>
+      <span class="mt-4 flex-row">
         <a
-        href="mailto:nd.hung@me.com"
-        target="_blank"
-        rel="noreferrer"
-        class={buttonVariants({ variant: 'outline' })}
+          href="mailto:nd.hung@me.com"
+          target="_blank"
+          rel="noreferrer"
+          class={buttonVariants({ variant: 'outline' })}
         >
-        Email
-      </a>
-      <a
-      href="https://www.linkedin.com/in/nd-hung/"
-      target="_blank"
-      rel="noreferrer"
-      class={buttonVariants({ variant: 'outline' })}
-      >
-      LinkedIn
-    </a>
-    <a
-    href="https://github.com/d-hung-nguyen"
-    target="_blank"
-    rel="noreferrer"
-    class={buttonVariants({ variant: 'outline' })}
-    >
-    GitHub
-  </a>
-  
-</span>
-</div>
+          Email
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nd-hung/"
+          target="_blank"
+          rel="noreferrer"
+          class={buttonVariants({ variant: 'outline' })}
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/d-hung-nguyen"
+          target="_blank"
+          rel="noreferrer"
+          class={buttonVariants({ variant: 'outline' })}
+        >
+          GitHub
+        </a>
+      </span>
+    </div>
   </div>
 </Card>

@@ -55,13 +55,13 @@ export const STUDIES = [
     date: 'Jan - Apr 2024',
   },
   {
-    title: 'Bachelor\'s Degree',
+    title: "Bachelor's Degree",
     institution: 'Foreign Trade University',
     link: 'Business Administration - BBA, Business Administration and Management, General',
     date: '2001 - 2005',
   },
   {
-    title: 'Bachelor\'s Degree',
+    title: "Bachelor's Degree",
     institution: 'Phuong Dong University',
     link: 'in English, Han-nom and Far East Culture.',
     date: '2001 - 2005',
@@ -105,9 +105,7 @@ export const EXPERIENCE = [
     position: 'Project Consultant, Reservations and Revenue Management',
     start: 'Mar 2015',
     end: 'Jul 2015',
-    tasks: [
-      'Consulting to optimize booking systems and revenue strategies.',
-    ],
+    tasks: ['Consulting to optimize booking systems and revenue strategies.'],
   },
   {
     company: 'RCI, Schliersee',
