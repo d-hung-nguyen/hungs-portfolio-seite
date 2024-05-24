@@ -11,9 +11,9 @@ export default defineConfig({
     react(),
     tailwind({
       applyBaseStyles: false,
+      jit: true,
     }),
+  ],
   output: 'server',
   adapter: vercel(),
 })
-
-
