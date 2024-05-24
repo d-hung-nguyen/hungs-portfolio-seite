@@ -1,10 +1,14 @@
-import { d as createComponent, r as renderTemplate } from '../astro_D-UXs7MS.mjs';
-import 'kleur/colors';
-import 'html-escaper';
-import 'clsx';
+import {
+  d as createComponent,
+  r as renderTemplate,
+} from '../astro_D-UXs7MS.mjs'
+import 'kleur/colors'
+import 'html-escaper'
+import 'clsx'
 
-const $$Portfolio = createComponent(async ($$result, $$props, $$slots) => {
-  return renderTemplate`<!-- ---
+const $$Portfolio = createComponent(
+  async ($$result, $$props, $$slots) => {
+    return renderTemplate`<!-- ---
 import { WORK } from '../lib/constants'
 import BaseLayout from '../layouts/BaseLayout.astro'
 import TopLayout from '../layouts/TopLayout.astro'
@@ -58,10 +62,14 @@ const entries = await contentfulClient.getEntries<Project>({})
       </div>
     </BottomLayout>
   </main>
-</BaseLayout> -->`;
-}, "/Users/hng/Documents/1C/astro-portfolio-main/src/pages/portfolio.astro", void 0);
+</BaseLayout> -->`
+  },
+  '/Users/hng/Documents/1C/astro-portfolio-main/src/pages/portfolio.astro',
+  void 0,
+)
 
-const $$file = "/Users/hng/Documents/1C/astro-portfolio-main/src/pages/portfolio.astro";
-const $$url = "/portfolio";
+const $$file =
+  '/Users/hng/Documents/1C/astro-portfolio-main/src/pages/portfolio.astro'
+const $$url = '/portfolio'
 
-export { $$Portfolio as default, $$file as file, $$url as url };
+export { $$Portfolio as default, $$file as file, $$url as url }
