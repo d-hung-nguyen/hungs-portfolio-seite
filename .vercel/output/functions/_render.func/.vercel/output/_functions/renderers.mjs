@@ -1,4 +1,4 @@
-import { a1 as AstroUserError } from './chunks/astro_D-UXs7MS.mjs';
+import { a1 as AstroUserError } from './chunks/astro_C6oBzPwA.mjs';
 import React__default, { createElement } from 'react';
 import ReactDOM from 'react-dom/server';
 

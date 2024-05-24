@@ -1,12 +1,12 @@
-import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, e as addAttribute, i as renderSlot, g as renderComponent, o as renderTransition, n as Fragment } from '../astro_D-UXs7MS.mjs';
+import { c as createComponent, r as renderTemplate, m as maybeRenderHead, d as addAttribute, i as renderSlot, e as createAstro, g as renderComponent, o as renderTransition, n as Fragment } from '../astro_C6oBzPwA.mjs';
 import 'kleur/colors';
 import 'html-escaper';
-import { W as WORK, E as EXPERIENCE } from './index_BPaQ15HY.mjs';
-import { c as cn, $ as $$BaseLayout } from './404_4DlFmmhl.mjs';
+import { W as WORK, E as EXPERIENCE } from './index_DKRZp7B1.mjs';
+import { c as cn, $ as $$BaseLayout } from './404_necM7BSu.mjs';
 import 'clsx';
 /* empty css                          */
 
-const $$Astro = createAstro("http://localhost:4321");
+const $$Astro = createAstro();
 const $$Container = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Container;

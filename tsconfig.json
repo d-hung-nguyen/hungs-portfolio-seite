@@ -3,6 +3,7 @@
 
   "compilerOptions": {
     "allowJs": true,
+    "esModuleInterop": true,
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "baseUrl": ".",

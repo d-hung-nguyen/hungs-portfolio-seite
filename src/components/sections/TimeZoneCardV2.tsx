@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import moment from 'moment-timezone'
 
-const Timezone = ({ timezone }: any) => {
+interface TimezoneProps {
+  timezone: string
+}
+
+const Timezone: React.FC<TimezoneProps> = ({ timezone }: TimezoneProps) => {
   const [dateTime, setDateTime] = useState('')
 
   useEffect(() => {
@@ -20,5 +24,4 @@ const Timezone = ({ timezone }: any) => {
     </div>
   )
 }
-
 export default Timezone

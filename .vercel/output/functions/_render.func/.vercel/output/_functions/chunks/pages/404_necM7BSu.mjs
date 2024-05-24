@@ -1,4 +1,4 @@
-import { c as createAstro, d as createComponent, r as renderTemplate, e as addAttribute, f as renderHead, m as maybeRenderHead, g as renderComponent, h as createTransitionScope, i as renderSlot } from '../astro_D-UXs7MS.mjs';
+import { c as createComponent, r as renderTemplate, d as addAttribute, e as createAstro, f as renderHead, m as maybeRenderHead, g as renderComponent, h as createTransitionScope, i as renderSlot } from '../astro_C6oBzPwA.mjs';
 import 'kleur/colors';
 import 'html-escaper';
 import { clsx } from 'clsx';
@@ -11,7 +11,7 @@ import { twMerge } from 'tailwind-merge';
 import { ChevronRight, Check, Circle, Sun, Moon } from 'lucide-react';
 import * as DropdownMenuPrimitive from '@radix-ui/react-dropdown-menu';
 
-const $$Astro$3 = createAstro("http://localhost:4321");
+const $$Astro$3 = createAstro();
 const $$ViewTransitions = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$ViewTransitions;
@@ -19,7 +19,7 @@ const $$ViewTransitions = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`<meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback"${addAttribute(fallback, "content")}>`;
 }, "/Users/hng/Documents/1C/astro-portfolio-main/node_modules/astro/components/ViewTransitions.astro", void 0);
 
-const $$Astro$2 = createAstro("http://localhost:4321");
+const $$Astro$2 = createAstro();
 const $$HeadSEO = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$HeadSEO;
@@ -314,7 +314,7 @@ const $$Technologies = createComponent(($$result, $$props, $$slots) => {
     <\/script> </body> </html>`])), renderHead());
 }, "/Users/hng/Documents/1C/astro-portfolio-main/src/components/sections/Technologies.astro", void 0);
 
-const $$Astro$1 = createAstro("http://localhost:4321");
+const $$Astro$1 = createAstro();
 const $$Index = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Index;
@@ -323,7 +323,7 @@ const $$Index = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${renderComponent($$result, "vercel-speed-insights", "vercel-speed-insights", { "data-props": propsStr, "data-params": paramsStr, "data-pathname": Astro2.url.pathname })} `;
 }, "/Users/hng/Documents/1C/astro-portfolio-main/node_modules/@vercel/speed-insights/dist/astro/index.astro", void 0);
 
-const $$Astro = createAstro("http://localhost:4321");
+const $$Astro = createAstro();
 const $$BaseLayout = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$BaseLayout;

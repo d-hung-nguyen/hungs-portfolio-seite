@@ -1,7 +1,7 @@
-import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, m as maybeRenderHead, i as renderSlot, n as Fragment, e as addAttribute } from '../astro_D-UXs7MS.mjs';
+import { c as createComponent, r as renderTemplate, g as renderComponent, e as createAstro, m as maybeRenderHead, i as renderSlot, n as Fragment, d as addAttribute } from '../astro_C6oBzPwA.mjs';
 import 'kleur/colors';
 import 'html-escaper';
-import { c as cn, b as buttonVariants, B as Button, $ as $$BaseLayout } from './404_4DlFmmhl.mjs';
+import { c as cn, b as buttonVariants, B as Button, $ as $$BaseLayout } from './404_necM7BSu.mjs';
 import { jsx, jsxs } from 'react/jsx-runtime';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
@@ -133,7 +133,7 @@ const EXPERIENCE = [
   }
 ];
 
-const $$Astro$2 = createAstro("http://localhost:4321");
+const $$Astro$2 = createAstro();
 const $$ContentCard = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$ContentCard;
@@ -195,7 +195,7 @@ const CardFooter = React.forwardRef(({ className, ...props }, ref) => /* @__PURE
 ));
 CardFooter.displayName = "CardFooter";
 
-const $$Astro$1 = createAstro("http://localhost:4321");
+const $$Astro$1 = createAstro();
 const $$Card = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Card;
@@ -283,7 +283,7 @@ const $$StudyCard = createComponent(($$result, $$props, $$slots) => {
 </div> ` })}`;
 }, "/Users/hng/Documents/1C/astro-portfolio-main/src/components/sections/StudyCard.astro", void 0);
 
-const $$Astro = createAstro("http://localhost:4321");
+const $$Astro = createAstro();
 const $$Index = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Index;

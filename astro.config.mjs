@@ -1,19 +1,18 @@
 import { defineConfig } from 'astro/config'
-import vercel from '@astrojs/vercel/serverless'
 import react from '@astrojs/react'
 import tailwind from '@astrojs/tailwind'
 
+// Define the Astro configuration
 export default defineConfig({
-  site: process.env.CI
-    ? 'https://astro-shadcn-ui-template.vercel.app'
-    : 'http://localhost:4321',
+  // Define the base URL for the site
+  site: 'https://astro-portfolio-main.vercel.app', // Ensure this URL is correct for your project's deployment
+
+  // Add integrations for React and Tailwind CSS
   integrations: [
-    react(),
+    react(), // Enables the use of React components in Astro files
     tailwind({
-      applyBaseStyles: false,
-      jit: true,
+      applyBaseStyles: false, // Do not automatically apply Tailwind's base styles
+      // Additional Tailwind configuration options can be added here
     }),
   ],
-  output: 'server',
-  adapter: vercel(),
 })
