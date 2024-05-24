@@ -6,7 +6,7 @@ import vercel from '@astrojs/vercel/serverless'
 // Define the Astro configuration
 export default defineConfig({
   // Define the base URL for the site
-  site: 'https://astro-portfolio-main.vercel.app', // Ensure this URL is correct for your project's deployment
+  site: 'https://nest-port.de', // Ensure this URL is correct for your project's deployment
 
   // Add integrations for React and Tailwind CSS
   integrations: [
