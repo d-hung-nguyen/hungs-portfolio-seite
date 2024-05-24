@@ -3,7 +3,8 @@ import { File } from 'lucide-react'
 import Card from '../Card.astro'
 import { Download } from 'lucide-react'
 
-const PDF = ['/hung-cv-english.pdf', 'hung-cv-german-pdf.pdf']
+const PDF = '/hung-cv-english.pdf'
+const PDFDE = 'hung-cv-german-pdf.pdf'
 ---
 
 <Card title="CV">
@@ -28,7 +29,7 @@ const PDF = ['/hung-cv-english.pdf', 'hung-cv-german-pdf.pdf']
         <p class="text-sm text-muted-foreground">
           View and download my resume in German by clicking on the button below
         </p>
-        <a target="_blank" href={PDF}>
+        <a target="_blank" href={PDFDE}>
           <Download> Download Resume in German</Download>
         </a>
       </div>
