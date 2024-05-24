@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config'
 import react from '@astrojs/react'
 import tailwind from '@astrojs/tailwind'
+import vercel from '@astrojs/vercel/serverless'
 
 // Define the Astro configuration
 export default defineConfig({
@@ -15,4 +16,8 @@ export default defineConfig({
       // Additional Tailwind configuration options can be added here
     }),
   ],
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: { enabled: true },
+  }),
 })
