@@ -172,18 +172,22 @@ export const EXPERIENCE = [
 export const SKILLS = [
   {
     category: 'Communication',
-    details: 'Strong interpersonal and communication skills, fluent in German and English.',
+    details:
+      'Strong interpersonal and communication skills, fluent in German and English.',
   },
   {
     category: 'Hotel Management',
-    details: 'Expertise in hotel operations and management, especially in the pre-opening phase of luxury hotels.',
+    details:
+      'Expertise in hotel operations and management, especially in the pre-opening phase of luxury hotels.',
   },
   {
     category: 'Revenue Management',
-    details: 'In-depth knowledge of revenue analysis, budgeting, and forecasting.',
+    details:
+      'In-depth knowledge of revenue analysis, budgeting, and forecasting.',
   },
   {
     category: 'Technology',
-    details: 'Knowledge in fullstack development, including modern web technologies and database management.',
+    details:
+      'Knowledge in fullstack development, including modern web technologies and database management.',
   },
 ]
