@@ -1,35 +1,35 @@
 ---
 // Import styles
-import '@/styles/globals.css';
-import '@/styles/fonts.css';
+import '@/styles/globals.css'
+import '@/styles/fonts.css'
 
 // Define interface for component props
 interface Props {
-  title?: string;
-  description?: string;
-  ogImage?: URL;
+  title?: string
+  description?: string
+  ogImage?: URL
 }
 
-console.log('Site URL:', Astro.site); // Debugging line
-console.log('Pathname:', Astro.url.pathname); // Debugging line
+console.log('Site URL:', Astro.site) // Debugging line
+console.log('Pathname:', Astro.url.pathname) // Debugging line
 
 // Ensure baseURL is always valid
-const baseURL = new URL(Astro.site || 'https://default-fallback-url.com');
-const canonicalURL = new URL(Astro.url.pathname || '/', baseURL.href);
+const baseURL = new URL(Astro.site || 'https://default-fallback-url.com')
+const canonicalURL = new URL(Astro.url.pathname || '/', baseURL.href)
 
 // Set a default Open Graph image if none is provided
 if (!Astro.props.ogImage) {
-  Astro.props.ogImage = new URL('View1.png', canonicalURL.href);
+  Astro.props.ogImage = new URL('View1.png', canonicalURL.href)
 }
 
-const { title, description, ogImage } = Astro.props;
+const { title, description, ogImage } = Astro.props
 ---
 
 <html lang="en">
-<head>
-  <!-- Meta tags and links -->
-</head>
-<body>
-  <!-- Body content goes here -->
-</body>
+  <head>
+    <!-- Meta tags and links -->
+  </head>
+  <body>
+    <!-- Body content goes here -->
+  </body>
 </html>
